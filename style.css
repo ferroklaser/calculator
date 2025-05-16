@@ -12,35 +12,33 @@
     background-color: lightgray;
     height: 100px;
     width: 380px;
-    margin: 10px;
+    margin: 10px 20px 0;
+    padding: 0;
 }
 
 .buttons {
-    background-color: red;
     height: 370px;
     width: 380px;
     display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
-.operators {
+button {
+    flex: 1 25%;
+    font-size: 20px;
+    border-width: 1px;
+}
+
+.operator {
     background-color: orange;
-    height: 370px;
-    width: 100px;
 }
 
-.left {
-    background-color: pink;
-    height: 370px;
-    flex-grow: 2;
+.function {
+    background-color: cornflowerblue;
 }
 
-.numbers {
+.number {
     background-color: green;
-    height: 290px;
-
 }
 
-.functions {
-    background-color: blue;
-    height: 80px;
-}
