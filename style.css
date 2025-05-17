@@ -14,6 +14,10 @@
     width: 380px;
     margin: 10px 20px 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 70px;
 }
 
 .buttons {
@@ -35,6 +39,7 @@ button {
     flex: 1 25%;
     font-size: 20px;
     border-width: 1px;
+    font-weight: 300;
 }
 
 .operator {
