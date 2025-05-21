@@ -17,7 +17,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .buttons {
@@ -42,7 +42,7 @@ button {
     font-weight: 300;
 }
 
-.operator {
+.operator, .equals {
     background-color: orange;
 }
 
